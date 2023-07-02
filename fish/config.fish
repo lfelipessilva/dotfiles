@@ -4,7 +4,7 @@ end
 
 # Add starship
 starship init fish | source
-
+export STARSHIP_CONFIG=$HOME/.config/starship/starship.toml
 # Remove greeting
 set fish_greeting
 
