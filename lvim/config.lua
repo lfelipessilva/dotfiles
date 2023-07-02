@@ -3,9 +3,14 @@
 -- Forum: https://www.reddit.com/r/lunarvim/
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
-vim.opt.relativenumber = true
+vim.opt.relativenumber = true -- relative line numbers
 
-lvim.builtin.terminal.open_mapping = "<c-t>"
+lvim.plugins = {
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 } -- catpucchin theme
+}
 
-lvim.keys.normal_mode["<C-l>"] = ":bnext<cr>"
-lvim.keys.normal_mode["<C-h>"] = ":bprev<cr>"
+lvim.colorscheme = "catppuccin" -- sets theme to catpuccin
+
+lvim.builtin.terminal.open_mapping = "<c-t>" -- open terminal on Ctrl+T
+lvim.keys.normal_mode["<C-l>"] = ":bnext<cr>" -- next buffer in Ctrl + l
+lvim.keys.normal_mode["<C-h>"] = ":bprev<cr>" -- next buffer in Ctrl + h
