@@ -1,6 +1,5 @@
-#WHAT I USE
-
-- alacritty: rust based terminal
-- fish: customizable shell
-- lvim: neovim superset
-- starship: terminal prompt
+## WHAT I USE
+- [Alacritty](https://alacritty.org/) - Terminal emulator
+- [Fish](https://fishshell.com/) - Command line shell
+- [Lvim](https://www.lunarvim.org/) - Neovim superset
+- [Starship](starship.rs/) - Terminal prompt
