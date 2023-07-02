@@ -6,3 +6,6 @@
 vim.opt.relativenumber = true
 
 lvim.builtin.terminal.open_mapping = "<c-t>"
+
+lvim.keys.normal_mode["<C-l>"] = ":bnext<cr>"
+lvim.keys.normal_mode["<C-h>"] = ":bprev<cr>"
