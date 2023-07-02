@@ -12,6 +12,12 @@ font:
   bold:
     family: Fira Code
     style: Bold
+  italic:
+    family: JetBrains Mono
+    style: Medium Italic
+  bold_italic:
+    family: JetBrains Mono 
+    style: Bold Italic
 
 import:
   - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
