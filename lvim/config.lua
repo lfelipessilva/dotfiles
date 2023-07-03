@@ -12,5 +12,5 @@ lvim.plugins = {
 lvim.colorscheme = "catppuccin" -- sets theme to catpuccin
 
 lvim.builtin.terminal.open_mapping = "<c-t>" -- open terminal on Ctrl+T
-lvim.keys.normal_mode["<C-l>"] = ":bnext<cr>" -- next buffer in Ctrl + l
-lvim.keys.normal_mode["<C-h>"] = ":bprev<cr>" -- next buffer in Ctrl + h
+lvim.keys.normal_mode["<S-l>"] = ":bnext<cr>" -- next buffer in Ctrl + l
+lvim.keys.normal_mode["<S-h>"] = ":bprev<cr>" -- next buffer in Ctrl + h
