@@ -10,3 +10,4 @@ set fish_greeting
 
 alias v="lvim"
 alias c="code"
+alias g="git"
