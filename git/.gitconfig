@@ -1,0 +1,10 @@
+[init]
+	defaultBranch = main
+[user]
+	name = Luis Felipe
+	email = luis.felipeszsv@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
