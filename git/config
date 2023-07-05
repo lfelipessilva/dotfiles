@@ -18,6 +18,7 @@
 
   tags = tag -l
 
+  l = log
   pg = diff
   pgs = diff --staged
   pa = apply
