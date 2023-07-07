@@ -16,8 +16,8 @@ font:
   bold_italic:
     family: JetBrains Mono 
     style: Bold Italic
-
+key_bindings:
+  - { key: N, mods: Control, action: SpawnNewInstance }
 import:
   - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
-  # - ~/.config/alacritty/dracula/dracula.yml
 
