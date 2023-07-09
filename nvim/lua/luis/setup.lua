@@ -39,6 +39,7 @@ require("lazy").setup(
     "windwp/nvim-autopairs", --create pairs for <, {, [, (
     "windwp/nvim-ts-autotag", --auto rename html tags
 
-    "terrortylor/nvim-comment"
+    "terrortylor/nvim-comment", --auto comment
+    "lewis6991/gitsigns.nvim" --git integration
   }
 )
