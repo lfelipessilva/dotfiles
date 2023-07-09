@@ -28,6 +28,10 @@ treesitter.setup({
     "vim",
     "dockerfile",
     "gitignore",
+
+    -- necessary for lspsaga
+    "markdown", 
+    "markdown_inline"
   },
   -- auto install above language parsers
   auto_install = true,

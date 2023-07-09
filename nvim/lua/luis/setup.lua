@@ -18,7 +18,9 @@ require("lazy").setup(
     "christoomey/vim-tmux-navigator",
     "nvim-telescope/telescope.nvim",
     "nvim-telescope/telescope-fzf-native.nvim",
+
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+
     {
       "nvim-tree/nvim-tree.lua",
       lazy = false,
@@ -26,10 +28,15 @@ require("lazy").setup(
         "nvim-tree/nvim-web-devicons",
       },
     },
+
     "williamboman/mason.nvim",
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
     "hrsh7th/nvim-cmp",
-      "hrsh7th/cmp-nvim-lsp"
+    "jose-elias-alvarez/null-ls.nvim",
+    "hrsh7th/cmp-buffer",
+
+    "windwp/nvim-autopairs",
+    "windwp/nvim-ts-autotag",
   }
 )
