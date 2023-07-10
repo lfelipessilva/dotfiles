@@ -40,6 +40,8 @@ require("lazy").setup(
     "windwp/nvim-ts-autotag", --auto rename html tags
 
     "terrortylor/nvim-comment", --auto comment
-    "lewis6991/gitsigns.nvim" --git integration
+    "lewis6991/gitsigns.nvim", --git integration
+
+    "akinsho/bufferline.nvim"
   }
 )
