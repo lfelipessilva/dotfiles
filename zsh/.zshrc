@@ -108,7 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # # ALIAS
-alias v=lvim
+alias v='nvim .'
 alias g=git
 
 # STARSHIP
