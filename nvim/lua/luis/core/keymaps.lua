@@ -18,3 +18,4 @@ keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv") -- move line down(v)
 
 keymap.set("n", "<S-h>", "<cmd>:bprevious<cr>") -- previous buffer
 keymap.set("n", "<S-l>", "<cmd>:bnext<cr>") -- next buffer
+keymap.set("n", "<leader>c", "<cmd>:bdelete<cr>") -- close buffer
