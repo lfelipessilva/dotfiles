@@ -109,6 +109,7 @@ source $ZSH/oh-my-zsh.sh
 
 # # ALIAS
 alias v='nvim .'
+alias c='code .'
 alias g=git
 
 # STARSHIP
