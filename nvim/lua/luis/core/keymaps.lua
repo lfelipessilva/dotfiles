@@ -6,7 +6,8 @@ local keymap = vim.keymap -- for conciseness
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
 keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find string in current working directory as you type
 
-keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<cr>") -- find files within current working directory, respects .gitignoreS
+keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<cr>") -- find files within current working directory, respects .gitignoreS
+keymap.set("n", "<leader>ef", "<cmd>NvimTreeFindFileToggle<CR>", { desc = "Toggle file explorer on current file" }) -- toggle file explorer on current file
 
 keymap.set("n", "<leader>lf", "<cmd>lua vim.lsp.buf.format()<cr>")
 
