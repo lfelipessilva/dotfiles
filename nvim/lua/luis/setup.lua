@@ -46,6 +46,9 @@ require("lazy").setup(
         { 'hrsh7th/nvim-cmp' },                  -- Required
         { 'hrsh7th/cmp-nvim-lsp' },              -- Required
         { 'L3MON4D3/LuaSnip' },                  -- Required
+        { 'jose-elias-alvarez/null-ls.nvim' },
+        { 'fsouza/prettierd' },
+        { 'stevearc/conform.nvim' }
       },
     },
 
@@ -55,6 +58,7 @@ require("lazy").setup(
     "terrortylor/nvim-comment", --auto comment
     "lewis6991/gitsigns.nvim",  --git integration
 
-    "akinsho/bufferline.nvim"
+    "akinsho/bufferline.nvim",
+    'famiu/bufdelete.nvim'
   }
 )
