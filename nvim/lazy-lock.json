@@ -23,5 +23,6 @@
   "prettierd": { "branch": "main", "commit": "159c058bd53388b181ceda334620fcb89744d6e9" },
   "telescope-fzf-native.nvim": { "branch": "main", "commit": "9ef21b2e6bb6ebeaf349a0781745549bbb870d27" },
   "telescope.nvim": { "branch": "master", "commit": "5a701e99906961218b55d7ad6c2a998f066c6fe0" },
+  "trouble.nvim": { "branch": "main", "commit": "b9cf677f20bb2faa2dacfa870b084e568dca9572" },
   "vim-tmux-navigator": { "branch": "master", "commit": "38b1d0402c4600543281dc85b3f51884205674b6" }
 }
