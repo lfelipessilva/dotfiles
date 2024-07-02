@@ -8,7 +8,7 @@ keymap.set("n", "<leader>fs", "<cmd>Telescope live_grep<cr>") -- find string in 
 
 keymap.set("n", "<leader>e", "<cmd>NvimTreeToggle<cr>") -- find files within current working directory, respects .gitignoreS
 
-keymap.set("n", "<leader>lf", "<cmd>lua vim.lsp.buf.format()<cr>")
+keymap.set("n", "<leader>f", "<cmd>lua vim.lsp.buf.format()<cr>")
 
 keymap.set("n", "<A-j>", ":m .+1<CR>==") -- move line up(n)
 keymap.set("n", "<A-k>", ":m .-2<CR>==") -- move line down(n)
@@ -22,6 +22,7 @@ keymap.set("n", "<leader>q", "<cmd>:Bdelete<cr>") -- close
 keymap.set("n", "<leader>wf", function()
 	require("trouble").toggle()
 end)
-vim.keymap.set("n", "<leader>xw", function()
+
+vim.keymap.set("n", "<leader>ww", function()
 	require("trouble").toggle("workspace_diagnostics")
 end)

@@ -3,10 +3,10 @@
   "IS_MINIMIZED": false,
   "SKIP_HOST_UPDATE": true,
   "WINDOW_BOUNDS": {
-    "x": 1595,
-    "y": 764,
-    "width": 2197,
-    "height": 1336
+    "x": 1376,
+    "y": 921,
+    "width": 1779,
+    "height": 1088
   },
   "OPEN_ON_STARTUP": false,
   "chromiumSwitches": {}

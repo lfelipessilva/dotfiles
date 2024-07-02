@@ -1,7 +1,7 @@
 import = ["/home/luis/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
 
 [font]
-size = 11
+size = 12
 
 [font.bold]
 family = "Fira Code"
