@@ -123,6 +123,7 @@ video2gif() {
 # # ALIAS
 alias v='nvim .'
 alias c='code .'
+alias t=tmux
 alias g=git
 
 # STARSHIP
