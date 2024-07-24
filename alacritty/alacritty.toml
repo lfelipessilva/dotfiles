@@ -1,23 +1,25 @@
 import = ["/home/luis/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
 
 [font]
-size = 12
+size = 13
+offset.x = 1
+offset.y = 1
 
 [font.bold]
-family = "Fira Code"
+family = "CaskaydiaMono Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "Fira Code"
+family = "CaskaydiaMono Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "Fira Code"
+family = "CaskaydiaMono Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "Fira Code"
-style = "Medium"
+family = "CaskaydiaMono Nerd Font Mono"
+style = "Mono"
 
 [[keyboard.bindings]]
 action = "SpawnNewInstance"
@@ -25,5 +27,5 @@ key = "N"
 mods = "Control"
 
 [window.dimensions]
-columns = 140
-lines = 40
+columns = 200
+lines = 50
