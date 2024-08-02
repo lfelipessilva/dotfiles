@@ -28,11 +28,6 @@
     "Wq": "wq",
     "Q": "q"
   },
-  "preview_tabs": {
-    "enabled": true,
-    "enable_preview_from_file_finder": true,
-    "enable_preview_from_code_navigation": true
-  },
   "tabs": {
     "file_icons": true,
     "git_status": true
