@@ -2,19 +2,7 @@
 	defaultBranch = main
 [user]
 	email = luis.felipeszsv@gmail.com
-  name = Luis Felipe
-
-[core]
-    pager = delta
-[interactive]
-    diffFilter = delta --color-only
-[delta]
-    navigate = true    
-[merge]
-    conflictstyle = diff3
-[diff]
-    colorMoved = default
-
+    name = Luis Felipe
 [alias]
   co = checkout
   coc = checkout .
@@ -124,4 +112,3 @@
   brar = "!f() { git bra | grep remotes/$1/ | cut -f 3 -d '/'; }; f"
   brd = branch -D
   brco = branch --contains
-

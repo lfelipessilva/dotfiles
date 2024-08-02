@@ -14,8 +14,9 @@
       "ctrl-j": ["workspace::ActivatePaneInDirection", "Down"],
       "ctrl-q": ["pane::CloseActiveItem", { "saveIntent": "skip" }],
       "ctrl-e": "project_panel::ToggleFocus",
-      "ctrl-e e": "workspace::ToggleLeftDock",
-      "ctrl-t": "workspace::ToggleRightDock",
+      "ctrl-shift-e": "workspace::ToggleLeftDock",
+      "ctrl-t": "terminal_panel::ToggleFocus",
+      "ctrl-shift-t": "workspace::ToggleRightDock",
       "ctrl-f f": "file_finder::Toggle",
       "ctrl-f s": "pane::DeploySearch",
       "ctrl-w w": "diagnostics::Deploy",
@@ -32,7 +33,9 @@
       "shift-h": "pane::ActivatePrevItem",
       "shift-l": "pane::ActivateNextItem",
       "alt-k": "editor::MoveLineUp",
-      "alt-j": "editor::MoveLineDown"
+      "alt-j": "editor::MoveLineDown",
+      "ctrl-w v": "pane::SplitRight",
+      "ctrl-w s": "pane::SplitDown"
     }
   },
   {
