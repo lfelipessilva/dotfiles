@@ -14,7 +14,8 @@
     "dock": "right"
   },
   "project_panel": {
-    "dock": "left"
+    "dock": "left",
+    "auto_fold_dirs": false
   },
   "telemetry": {
     "diagnostics": true,
@@ -42,6 +43,6 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Catppuccin Macchiato"
+    "dark": "Catppuccin Mocha"
   }
 }
