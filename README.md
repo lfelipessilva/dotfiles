@@ -5,3 +5,4 @@
 - [Alacritty](https://alacritty.org/) - Terminal emulator
 - [Tmux](https://github.com/tmux/tmux/wiki) - terminal multiplexer
 - [Neovim](https://neovim.io) - Text editor
+- [Zed](https://zed.dev/) - Text editor
