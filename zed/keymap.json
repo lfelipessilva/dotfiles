@@ -23,7 +23,8 @@
       "ctrl-w f": "diagnostics::ToggleWarnings",
       "ctrl-p": "tab_switcher::Toggle",
       "ctrl-[": ["workspace::SwapPaneInDirection", "Left"],
-      "ctrl-]": ["workspace::SwapPaneInDirection", "Right"]
+      "ctrl-]": ["workspace::SwapPaneInDirection", "Right"],
+      "enter": "editor::OpenExcerpts"
     }
   },
   {
